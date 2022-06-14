@@ -1,0 +1,31 @@
+get the year as input 
+fetch max population and min population
+
+value = input(' please Enter Year: ')
+x = max(Populationdata[value])
+y = min(Populationdata[value])
+
+initialized these variables with 0
+template= 0
+sum=0
+
+for loop then if else statement
+to access the country name subsequent to that index.
+ if(column != x):
+  template = template+1
+ else:
+  break
+
+for column in Populationdata[value]:
+ if(column != y):
+   sum = sum+1
+ else:
+  break
+
+pass the index and get the country name 
+first_column = Populationdata.iloc[:, 0]
+
+
+
+print("Lowest Population is:",first_column[sum])
+print("Highest Population is:",first_column[template])
